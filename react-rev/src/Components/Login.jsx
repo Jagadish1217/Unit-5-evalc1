@@ -29,7 +29,7 @@ const Login = ({ switchPage }) => {
 
     }
     if (isAuth) {
-        return <Login/>
+        return <todo/>
     }
     return (
         <>
