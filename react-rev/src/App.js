@@ -33,6 +33,7 @@ const onRemove = (product) => {
   return (
   <>
       <div className="App">
+        <button onClick={() => setSwitchPage((prev) => !prev)}>{switchPage ? "Signup":"Login"}</button>
          <Login switchPage = {switchPage}/>
     <Header countCartItems={cartItems.length}></Header>
     <div className="row">
@@ -43,7 +44,7 @@ const onRemove = (product) => {
       ></Basket>
     </div>
       </div>
-      <button onClick={() => setSwitchPage((prev) => !prev)}>{switchPage ? "Signup" : "Login"}</button>
+      
   </>
   );
 }

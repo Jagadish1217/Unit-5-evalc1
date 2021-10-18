@@ -1,7 +1,7 @@
-/* .App {
+ /* .App {
   text-align: center;
-}
-
+}  */
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -77,8 +77,16 @@ a {
 .text-right {
   text-align: right;
 }
+/* .small {
+  display: flex;
+  text-align: center;
+  width: 50%;
+  margin: 10% auto;
+  
+} */
 img.small {
-  max-height: 8rem;
+  height: 4rem;
+  width: 50%;
 }
 button {
   font-size: 0.8rem;
